@@ -1,0 +1,30 @@
+{
+  "name": "@strapi/provider-email-mailru",
+  "version": "0.0.1",
+  "description": "provider for sending letters to strapi via mail.ru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopBlogger/provider-email-mailru.git"
+  },
+  "keywords": [
+    "strapi",
+    "provider",
+    "email"
+  ],
+  "author": "dmitrypopov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TopBlogger/provider-email-mailru/issues"
+  },
+  "homepage": "https://github.com/TopBlogger/provider-email-mailru#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.9"
+  }
+}
